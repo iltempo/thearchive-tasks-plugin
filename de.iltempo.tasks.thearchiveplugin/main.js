@@ -1,5 +1,13 @@
+// Supported task formats are:
+//
+// - [ ] Task
+// * [ ] Task
+// 99. [ ] Task
+//
+// Test the regular expression here: https://regex101.com/r/bmfG3m/1 
+
 const ownFilename = output.changeFile.filename;
-const tasksRegex = /-\s\[\s\].*/g;
+const tasksRegex = /([-*]|[\d.]*) \[ \].*/g;
 let body = "Tasks:\n";
 
 for (let note of input.notes.all) {
@@ -13,7 +21,7 @@ for (let note of input.notes.all) {
 
     for (taskMatch of note.content.matchAll(tasksRegex)) {
       // Write tasks found as a Markdown list
-      body += taskMatch + "\n";
+      body += taskMatch[0] + "\n";
     }
   }
 }
