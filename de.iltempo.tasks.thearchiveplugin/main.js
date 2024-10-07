@@ -1,5 +1,5 @@
 const ownFilename = output.changeFile.filename;
-const tasksRegex = /\[\s\].*/g;
+const tasksRegex = /-\s\[\s\].*/g;
 let body = "Tasks:\n";
 
 for (let note of input.notes.all) {
@@ -13,7 +13,7 @@ for (let note of input.notes.all) {
 
     for (taskMatch of note.content.matchAll(tasksRegex)) {
       // Write tasks found as a Markdown list
-      body += "- " + taskMatch + "\n";
+      body += taskMatch + "\n";
     }
   }
 }
