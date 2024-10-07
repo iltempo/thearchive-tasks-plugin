@@ -1,0 +1,28 @@
+{
+  "appVersion" : "1.8.0",
+  "authors" : [
+    {
+      "name" : "Alexander Greim"
+    }
+  ],
+  "dependencies" : [
+
+  ],
+  "description" : "Find tasks in Github flavoured in Markdown format in notes.\nhttps:\/\/github.blog\/news-insights\/product-news\/task-lists-in-all-markdown-documents\/",
+  "identifier" : "de.iltempo.tasks",
+  "input" : {
+    "notes" : [
+      "all"
+    ],
+    "text" : [
+
+    ]
+  },
+  "output" : {
+    "changeFile" : "Tasks",
+    "onCompletion" : "showFile"
+  },
+  "releaseDate" : "2024-10-07",
+  "title" : "Find Tasks in Notes",
+  "version" : "1.0.0"
+}
