@@ -4,10 +4,10 @@
 // * [ ] Task
 // 99. [ ] Task
 //
-// Test the regular expression here: https://regex101.com/r/bmfG3m/1 
+// Test the regular expression here: https://regex101.com/r/bmfG3m/2 
 
 const ownFilename = output.changeFile.filename;
-const tasksRegex = /([-*]|[\d.]*) \[ \].*/g;
+const tasksRegex = /([-*]|\d+.) \[ \].*/g;
 let body = "Tasks:\n";
 
 for (let note of input.notes.all) {
