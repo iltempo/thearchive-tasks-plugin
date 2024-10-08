@@ -17,7 +17,7 @@ for (let note of input.notes.all) {
   // Find notes that contain tasks
   if (note.content.match(tasksRegex) !== null) {
     // Write note links
-    body += "\n[[" + note.filename + "]]\n";
+    body += "\n[[" + note.filename + "]]\n\n";
 
     for (taskMatch of note.content.matchAll(tasksRegex)) {
       // Write tasks found as a Markdown list
