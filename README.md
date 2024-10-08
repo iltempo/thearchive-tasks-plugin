@@ -10,4 +10,4 @@ Supported formats are
 
 ## Installation
 
-Download the [latest release version](https://github.com/iltempo/thearchive-tasks-plugin/releases), unzip and double click the plugin file to open it in _TheArchive_.
+Download the [latest release version](https://github.com/iltempo/thearchive-tasks-plugin/releases/latest), unzip and double click the plugin file to open it in _TheArchive_.
