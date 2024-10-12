@@ -1,6 +1,6 @@
-# TheArchive Tasks Plug-In
+# The Archive Tasks Plug-In
 
-[TheArchive](https://zettelkasten.de/the-archive/) tasks plugin collects tasks in [GitHub flavoured Markdown format](https://github.blog/news-insights/product-news/task-lists-in-all-markdown-documents/) from notes.
+[The Archive](https://zettelkasten.de/the-archive/) tasks plugin collects tasks in [GitHub flavoured Markdown format](https://github.blog/news-insights/product-news/task-lists-in-all-markdown-documents/) from notes.
 
 Supported formats are
 
@@ -10,4 +10,4 @@ Supported formats are
 
 ## Installation
 
-Download the [latest release version](https://github.com/iltempo/thearchive-tasks-plugin/releases/latest), unzip and double click the plugin file to open it in _TheArchive_.
+Download the [latest release version](https://github.com/iltempo/thearchive-tasks-plugin/releases/latest), unzip and double click the plugin file to open it in _The Archive_.
